@@ -1,6 +1,6 @@
 # Advisor Availability Feature Prototype
 
-A frontend prototype exploring a solution to a hypothetical university problem scenario  where academic advising appointments are released once a week, and once fully booked, students have no way to know if a slot opens up without repeatedly checking manually.
+A frontend prototype exploring a solution to a hypothetical university scenario  where academic advising appointments are released once a week, and once fully booked, students have no way to know if a slot opens up without repeatedly checking manually.
 
 ## The Problem
 
@@ -15,9 +15,21 @@ Academic advising appointments are released in a weekly batch. When they're gone
 
 ## Screenshots
 
-| No availability | Appointment time preference | waitlist confirmation | appointment available | appointment confirmation
-|---|---|---|---|---|
-| ![No appointments](screenshots/1-no-availability.png) | ![Appointment time preference](screenshots/2-appointment-time-preference.png) | ![Waitlist confirmation](screenshots/1-no-availability.png) | ![Appointment available](screenshots/1-no-availability.png) | ![Appointment confirmation](screenshots/1-no-availability.png) |
+1. Showing No Availability
+  <img width="1402" height="1030" alt="1-no-availability" src="https://github.com/user-attachments/assets/12e61f32-c675-401e-845a-fb5db182d85f" />
+
+
+2. Selecting Appointment Time Preference
+  <img width="1400" height="1026" alt="2-appointment-time-preference" src="https://github.com/user-attachments/assets/d3afad5b-877e-44a7-9bbd-30d411f41e8d" />
+
+3. Displaying Waitlist Confirmation
+  <img width="1396" height="1018" alt="3-waitlist-confirmation" src="https://github.com/user-attachments/assets/8e7fc171-622f-4e1e-9173-8c8f3e2a7812" />
+
+4. Revealing Appointment Available
+  <img width="1396" height="1020" alt="4-appointment-available" src="https://github.com/user-attachments/assets/3c8e3eb9-4dd9-49cd-83a4-e50e6d063374" />
+
+5. Confirming Appointment Booking
+  <img width="1400" height="1018" alt="5-appointment-confirmation" src="https://github.com/user-attachments/assets/f57dabc0-4a06-42cf-84c7-6bb15e57c3ae" />
 
 ## Tech stack
 
