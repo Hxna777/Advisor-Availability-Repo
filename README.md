@@ -1,16 +1,27 @@
-# React + Vite
+# Advisor Availability Feature Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend prototype exploring a solution to a hypothetical university problem scenario  where academic advising appointments are released once a week, and once fully booked, students have no way to know if a slot opens up without repeatedly checking manually.
 
-Currently, two official plugins are available:
+## The Problem
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Academic advising appointments are released in a weekly batch. When they're gone, students either wait until next week or manually re-check the booking page hoping for a cancellation. This prototype explores a "waitlist + notify" alternative that removes the need to keep checking.
 
-## React Compiler
+## What's in this repo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `src/App.jsx` / `src/App.css` — the working React prototype
+- `product/product-overview-document.md` — problem statement, target user, scope, goals, assumptions, compliance considerations, success metrics. 
+- `product/user-stories.md` — user stories with acceptance criteria, including an out-of-scope section for limitations of the prototype. 
+- `screenshots/` — key states of the app
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| No availability | Appointment time preference | waitlist confirmation | appointment available | appointment confirmation
+|---|---|---|---|---|
+| ![No appointments](screenshots/1-no-availability.png) | ![Appointment time preference](screenshots/2-appointment-time-preference.png) | ![Waitlist confirmation](screenshots/1-no-availability.png) | ![Appointment available](screenshots/1-no-availability.png) | ![Appointment confirmation](screenshots/1-no-availability.png) |
+
+## Tech stack
+
+React (Vite), frontend-only by design to keep the prototype focused on demonstrating the UX and product thinking.
+
+## Run it locally
+
